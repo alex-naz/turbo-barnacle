@@ -2,8 +2,8 @@
 Contains all the files needed to build and operate the data processing application. <br>
 Build the application: <br>
 Ensure the Docker Engine is running <br>
-"docker build -f Dockerfile1 -t plot:1.0 ." <br>
-"docker build -f Dockerfile2 -t process:1.0 ." <br>
+"docker build -f Dockerfile1 -t process:1.0 ." <br>
+"docker build -f Dockerfile2 -t plot:1.0 ." <br>
 <br>
 Run the application: <br>
 "docker compose up" <br>
