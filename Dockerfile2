@@ -6,4 +6,4 @@ COPY . /app
 
 RUN pip install --no-cache-dir -r dependencies.txt
 
-CMD ["python", "process.py"]
+CMD ["python", "plot.py"]
