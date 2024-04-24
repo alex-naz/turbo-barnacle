@@ -1,0 +1,29 @@
+version: '3'
+services:
+  process1:
+    image: process:1.0
+    environment:
+      - subset=1
+    volumes:
+      - data_all:/output
+  process2:
+    image: process:1.0
+    environment:
+      - subset=2
+    volumes:
+      - data_all:/output
+  process3:
+    image: process:1.0
+    environment:
+      - subset=3
+    volumes:
+      - data_all:/output
+  process4:
+    image: process:1.0
+    environment:
+      - subset=4
+    volumes:
+      - data_all:/output
+
+volumes:
+  data_all:
