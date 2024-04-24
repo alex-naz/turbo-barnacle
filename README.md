@@ -7,4 +7,5 @@ Build the application:
 Run the application:
 - docker compose up
 - docker run -v assessments_data_all:/input -v C:/Users/Alexander/Documents/scicomp/assessments:/output plot:1.0
+<br>
 *For the /output file path, enter the desired location on the host's filesystem. If using a Windows PC, make sure to switch the brackets from "\" to "/" as in the example above.
